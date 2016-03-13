@@ -1,5 +1,6 @@
 import os
 
+
 def clear():
     os.system("cls")
 
@@ -22,11 +23,12 @@ class Person:
         print("Hello , my name is %s , I was born in %s , my email is %s and my phone number is %s"% \
               (self.__name, self.__birth, self.__email, self.__phone))
 
-
-
 clear()
+
 print("\nHello World! Welcome to my Git testing!")
+
 p = Person(0, "Jose", "15/06/1993", "somemail@gmail.com", "99900-0000")
+
 p.presents()
 Person.presents(p)
 
