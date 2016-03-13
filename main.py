@@ -25,7 +25,7 @@ class Person:
 
 
 clear()
-print("Hello World! Welcome to my Git testing!")
+print("\nHello World! Welcome to my Git testing!")
 p = Person(0, "Jose", "15/06/1993", "somemail@gmail.com", "99900-0000")
 p.presents()
 Person.presents(p)
